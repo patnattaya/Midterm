@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/classroom"
+    tools:context="com.example.hp.midterm.Main2Activity">
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#88ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/textgrade"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:background="#88ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+</LinearLayout>
